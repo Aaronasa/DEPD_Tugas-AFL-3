@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 // import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:depd_mvvm_25/shared/style.dart';
-import 'package:depd_mvvm_25/view/pages/navigation_page.dart';
+import 'package:depd_mvvm_25/view/pages/pages.dart';
 import 'package:depd_mvvm_25/view model/home_viewmodel.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
           textTheme: GoogleFonts.poppinsTextTheme(
             Theme.of(context).textTheme,
           ).apply(bodyColor: Style.black, displayColor: Style.black),
+
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ButtonStyle(
               backgroundColor: WidgetStateProperty.all<Color>(Style.blue800),

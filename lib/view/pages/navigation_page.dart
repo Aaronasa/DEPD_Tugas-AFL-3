@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'pages.dart';
+part of 'pages.dart';
 
 class NavigationPage extends StatefulWidget {
   const NavigationPage({super.key});
@@ -37,7 +36,9 @@ class _NavigationPageState extends State<NavigationPage> {
             icon: Icon(Icons.airplanemode_active),
             label: "International",
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.menu_book), label: "Pages"),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.menu_book), label: "Pages"
+            ),
         ],
       ),
     );

@@ -9,3 +9,4 @@ import 'package:depd_mvvm_25/data/response/api_response.dart';
 part 'homepage.dart';
 part 'internationalpage.dart';
 part 'detailpage.dart';
+part 'navigation_page.dart';
